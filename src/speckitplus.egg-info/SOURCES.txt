@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/api.py
+src/cli.py
+src/models.py
+src/security.py
+src/services.py
+src/speckitplus.egg-info/PKG-INFO
+src/speckitplus.egg-info/SOURCES.txt
+src/speckitplus.egg-info/dependency_links.txt
+src/speckitplus.egg-info/requires.txt
+src/speckitplus.egg-info/top_level.txt
+tests/test_api.py
+tests/test_services.py

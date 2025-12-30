@@ -1,0 +1,17 @@
+{
+    "Clean Desk": {
+        "name": "Clean Desk",
+        "description": "Organize workspace",
+        "completed": false
+    },
+    "Walk the Dog": {
+        "name": "Walk the Dog",
+        "description": "Take the dog for a walk in the park",
+        "completed": false
+    },
+    "Shop Groceries": {
+        "name": "Shop Groceries",
+        "description": "Buy milk, eggs, bread",
+        "completed": false
+    }
+}

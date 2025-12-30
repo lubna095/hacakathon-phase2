@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "name": "buy laptop",
+        "description": "i want to buy a new laptop.",
+        "completed": false,
+        "owner": "David"
+    },
+    {
+        "id": "2",
+        "name": "buy a car",
+        "description": "john buy a car name BMW.",
+        "completed": false,
+        "owner": "David"
+    },
+    {
+        "id": "4",
+        "name": "buy some disks",
+        "description": "for laptop",
+        "completed": false,
+        "owner": "John"
+    },
+    {
+        "id": "5",
+        "name": "Buy bags",
+        "description": "fghjjloytrrc",
+        "completed": false,
+        "owner": "David"
+    },
+    {
+        "id": "6",
+        "name": "buy shoes",
+        "description": "shoes for school",
+        "completed": false,
+        "owner": "David"
+    }
+]

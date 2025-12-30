@@ -1,0 +1,17 @@
+[project]
+name = "speckitplus"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "python-jose[cryptography]",
+    "passlib[bcrypt]",
+    "typer",
+    "python-multipart",
+    "pymongo",
+    "python-dotenv",
+]
