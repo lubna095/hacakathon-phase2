@@ -23,7 +23,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '50px' ,backgroundColor:'#b8e3e4ff',textAlign:'center'}}>
+    <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '50px' ,backgroundColor:'#e7f0f0ff',textAlign:'center'}}>
       <h1>Sign Up</h1>
       <form onSubmit={handleSubmit}>
         <div style={{ marginBottom: '10px' }}>
@@ -33,7 +33,7 @@ export default function SignupPage() {
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', color: 'black', }}
+            style={{ width: '100%', padding: '8px', color: 'black',border:'2px dashed black' }}
           />
         </div>
         <div style={{ marginBottom: '10px' }}>
@@ -43,11 +43,11 @@ export default function SignupPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', color: 'black' }}
+            style={{ width: '100%', padding: '8px', color: 'black',border:'2px dashed black' }}
           />
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit" style={{ padding: '10px 20px' }}>Sign Up</button>
+        <button type="submit" style={{ padding: '10px 20px',border:'2px dashed black'}}>Sign Up</button>
       </form>
       <p>
         Already have an account? <a href="/login">Login</a>

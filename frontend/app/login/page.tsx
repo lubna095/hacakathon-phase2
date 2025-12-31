@@ -30,17 +30,17 @@ export default function LoginPage() {
   };
 
   return (
-    <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '50px',backgroundColor:'#b8e3e4ff',textAlign:'center' }}>
+    <div style={{ maxWidth: '400px', margin: 'auto', paddingTop: '40px',backgroundColor:'#eef5f5ff',textAlign:'center' }}>
       <h1>Login</h1>
       <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: '10px'  }}>
+        <div style={{ marginBottom: '20px'  }}>
           <label>Username</label>
           <input
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', color: 'black',borderRadius:'3px' }}
+            style={{ width: '100%', padding: '8px', color: 'black',border:'2px dashed black' }}
           />
         </div>
         <div style={{ marginBottom: '10px' }}>
@@ -50,11 +50,11 @@ export default function LoginPage() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             required
-            style={{ width: '100%', padding: '8px', color: 'black' }}
+            style={{ width: '100%', padding: '8px', color: 'black',border:'2px dashed black' }}
           />
         </div>
         {error && <p style={{ color: 'red' }}>{error}</p>}
-        <button type="submit" style={{ padding: '10px 20px' }}>Login</button>
+        <button type="submit" style={{ padding: '10px 20px', border:'2px dashed black' }}>Login</button>
       </form>
       <p>
         Don't have an account? <a href="/signup">Sign up</a>
